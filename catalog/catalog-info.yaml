@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tanzu-java-web-app-location
+  description: A collection of all Backstage example entities for Tanzu Banking Demo
+  #annotations:
+  #  'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/tanzu-java-web-app.yaml
